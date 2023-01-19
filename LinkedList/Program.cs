@@ -15,9 +15,18 @@ using LinkedListProgram;
 //linkedList.Display();
 
 //InsertionOfDataAtParticularPosition
-InsertionOfData insert=new InsertionOfData();
-insert.Add(56);
-insert.Add(30);
-insert.Add(70);
-insert.InsertionOfDataAtParticularPosition(2, 30);
-insert.Display();
+//InsertionOfData insert=new InsertionOfData();
+//insert.Add(56);
+//insert.Add(30);
+//insert.Add(70);
+//insert.InsertionOfDataAtParticularPosition(2, 30);
+//insert.Display();
+
+//Deletion of first Element
+DeleteFirstElementInLinkedList firstelement = new DeleteFirstElementInLinkedList();
+firstelement.Add(56);
+firstelement.Add(30);
+firstelement.Add(70);
+firstelement.Display();
+firstelement.pop_first();
+firstelement.Display();
