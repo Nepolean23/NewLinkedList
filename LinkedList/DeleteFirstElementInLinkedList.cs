@@ -80,13 +80,9 @@ namespace LinkedListProgram
 
                 }
                 return head;
-
-
             }
-
             internal void pop_first()
             {
-
                 if (this.head != null)
                 {
                     Node temp = this.head;
@@ -94,12 +90,6 @@ namespace LinkedListProgram
                     temp = null;
                 }
                 Console.WriteLine("first element has been removed");
-                
-
-            } 
-          
-        
-
-        
+            }    
     }
 }

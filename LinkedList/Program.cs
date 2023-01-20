@@ -23,10 +23,18 @@ using LinkedListProgram;
 //insert.Display();
 
 //Deletion of first Element
-DeleteFirstElementInLinkedList firstelement = new DeleteFirstElementInLinkedList();
-firstelement.Add(56);
-firstelement.Add(30);
-firstelement.Add(70);
-firstelement.Display();
-firstelement.pop_first();
-firstelement.Display();
+//DeleteFirstElementInLinkedList firstelement = new DeleteFirstElementInLinkedList();
+//firstelement.Add(56);
+//firstelement.Add(30);
+//firstelement.Add(70);
+//firstelement.Display();
+//firstelement.pop_first();
+//firstelement.Display();
+
+//Deletion of last Element
+DeleteLastElementInLinkedList lastelement= new DeleteLastElementInLinkedList();
+lastelement.Add(56);
+lastelement.Add(30);
+lastelement.Add(70);
+lastelement.Display();
+lastelement.DeletionOfLastElement();
